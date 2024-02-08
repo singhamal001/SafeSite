@@ -8,7 +8,7 @@ from ultralytics.utils.plotting import Annotator, colors
 import requests
 
 
-# Define the Discord webhook URL for sending alerts
+# Discord webhook URL for sending alerts
 webhook_url = "https://discord.com/api/webhooks/1204840755126992976/d3yDKKt-Q-2dU0rbk34XDNQXE8c22uSDuSpoJwEXShKWZlwaIU9p6FRwmgH47byJuj-0"
 def send_discord_message(webhook_url, message):
     """Sends a message to a Discord channel using the specified webhook URL.
@@ -36,12 +36,13 @@ class ObjectDetection:
 
         Parameters:
         - video_path (str): The path to the video file to use for detection.
+        - alert_sent (bool): If the alert has already been sent (to avoid alert spamming)
         """
         self.video_path = video_path
         self.alert_sent = False
 
         # Load the YOLO model.
-        self.model = YOLO("best.pt")
+        self.model = YOLO("best_50epochs.pt")
 
         # Initialize variables for annotation.
         self.annotator = None
@@ -97,6 +98,7 @@ class ObjectDetection:
         cap.release()
         cv2.destroyAllWindows()
 
+# Video is not available in the Github repo, confidentiality reasons.
 # Example usage with a video file path.
 video_path = 'videos/video (3).MOV'
 detector = ObjectDetection(video_path)
