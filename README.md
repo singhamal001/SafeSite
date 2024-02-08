@@ -8,7 +8,9 @@
 
 
 
-![Logo](https://github.com/singhamal001/SafeSite/blob/main/safesite%20logo.jpg)
+<div style="text-align:center;">
+    <img src="https://github.com/singhamal001/SafeSite/blob/main/safesite%20logo.jpg" alt="SafeSite Project Logo" width="500px" />
+</div>
 
 
 
