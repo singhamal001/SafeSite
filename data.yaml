@@ -1,0 +1,5 @@
+train: train/images
+val: test/images
+
+nc: 4
+names: ['Helmet', "Safety vest", "No Safety Vest", "No Helmet"]
