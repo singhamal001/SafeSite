@@ -8,7 +8,7 @@ from ultralytics.utils.plotting import Annotator, colors
 import requests
 
 
-# Define the Discord webhook URL for sending alerts
+# Discord webhook URL for sending alerts
 webhook_url = "https://discord.com/api/webhooks/1204840755126992976/d3yDKKt-Q-2dU0rbk34XDNQXE8c22uSDuSpoJwEXShKWZlwaIU9p6FRwmgH47byJuj-0"
 def send_discord_message(webhook_url, message):
     """Sends a message to a Discord channel using the specified webhook URL.
