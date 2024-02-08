@@ -1,0 +1,10 @@
+path: 
+train: train/images
+val: test/images
+
+# Classes
+names:
+  0: helmet
+  1: safety vest
+  2: no safety vest
+  3: no helmet

@@ -1,0 +1,7 @@
+torch
+numpy
+opencv-python
+time
+ultralytics
+requests
+pillow
