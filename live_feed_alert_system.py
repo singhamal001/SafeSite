@@ -36,7 +36,8 @@ class ObjectDetection:
         """Initializes the object detection system.
 
         Parameters:
-        - capture_index (int): The index of the camera to use for video capture."""
+        - capture_index (int): The index of the camera to use for video capture.
+        - alert_sent (bool): True if Alert is already sent in the past 10 seconds, to avoid alert Spamming."""
 
         # init parameters.
         self.capture_index = capture_index
