@@ -9,7 +9,7 @@
 
 
 <div style="text-align:center;">
-    <img src="https://github.com/singhamal001/SafeSite/blob/main/safesite%20logo.jpg" alt="SafeSite Project Logo" width="500px" />
+    <img src="https://github.com/singhamal001/SafeSite/blob/main/CV-Project_final_logo.png" alt="SafeSite Project Logo" width="500px" />
 </div>
 
 
