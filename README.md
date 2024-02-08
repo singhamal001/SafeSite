@@ -91,7 +91,7 @@ The model was trained on Google Colab, utilizing **5.8 G VRAM per epoch** for 50
    Training the YOLOv8 model was conducted on Google Colab. We experimented with training durations of 50 and 85 epochs, exporting the optimal settings as 'best_50epochs.pt' and 'best_85epochs.pt' respectively.
 
 ```Python
-!yolo task=detect mode=train model=yolov8n.pt data= data.yaml epochs=10 imgsz=640 plots=True
+!yolo task=detect mode=train model=yolov8n.pt data= data.yaml epochs=50 imgsz=640 plots=True
 
 ```
 
