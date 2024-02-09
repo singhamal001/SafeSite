@@ -208,6 +208,7 @@ Future work will focus on addressing the challenges of class imbalance and impro
 
 ## References
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [YOLOv8 GitHub Repository/Documentation](https://github.com/ultralytics/ultralytics)
+ - [YOLOv8 Model Training and Deployment for Object Detection ](https://www.youtube.com/watch?v=TRMZCsBfX78)
+ - [YOLOv8 | How to Train for Object Detection on a Custom Dataset](https://www.youtube.com/watch?v=iy34dSwfEsY&t=1074s&pp=ygUYb2JqZWN0IGRldGVjdGlvbiB5b2xvIHY4)
+ - [Alert-System Reference Repository](https://github.com/singhamal001/Crypto-200EMA-ADX-Filter)
